@@ -46,7 +46,7 @@ $("ul.thumb li").hover(function() {
        $("ul.thumb li a").click(function() {
                var mainImage = $(this).attr("href"); //Find Image Name
                $("#main_view img").attr({ src: mainImage });
-               $("#main_view span.main_caption").text($(this).parent().data(mainImage));
+               $("#main_view span.main_caption").html($(this).parent().data(mainImage));
                return false;
        });
 
@@ -58,7 +58,12 @@ $("ul.thumb li").hover(function() {
               $("li").each(function(index) {
                   caption = $(this).children("span.caption:first");
                   key = $(this).children("a:first").attr("href");
-                  value = caption.text();
+									if (caption.children("a").length > 0) {
+										value = caption.html();
+									}
+									else {
+										value = caption.text();
+									}
                   $(this).data(key,value);
                   caption.remove(); // remove the heck out of that caption
              });
