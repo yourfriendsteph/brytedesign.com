@@ -15,7 +15,7 @@ html, body {
 	margin-bottom:-6em;
 
 }
-	
+
 #studio p {
    font-family:'Times New Roman', serif;
    font-size:50px;
@@ -68,7 +68,7 @@ ul.nav {
 }
 
 ul.nav li {
-	display:inline; 
+	display:inline;
 	color:#609449;
 	font-family:serif;
 	margin:90px 1.8% 0pt 1.8%;
@@ -91,7 +91,7 @@ ul.nav li a {
 	-moz-transition: all 0.9s ease;
 	-o-transition: all 0.9s ease;*/
 	}
-	
+
 /* Social Nav */
 
 ul.social {
@@ -132,17 +132,17 @@ li #facebook {
 	background-repeat: no-repeat;
 }
 
-li #facebook:hover { 
+li #facebook:hover {
 	background-image: url('images/hov-fbook.png');
 	background-repeat: no-repeat;
 }
 
-li #twitter:hover { 
+li #twitter:hover {
 	background-image: url('images/hov-tw.png');
 	background-repeat: no-repeat;
 }
 
-li #mail:hover { 
+li #mail:hover {
 	background-image: url('images/hov-mail.png');
 	background-repeat: no-repeat;
 }
@@ -168,12 +168,27 @@ li #mail {
 	border: solid 2px #1d3956;
 }
 
+.message
+{
+font-family:'Times New Roman', serif;
+		margin: 10% auto;
+    max-width: 600px;
+    position: relative;
+		font-size: 2em;
+		text-align: center;
+		color:#609449;
+		font-weight:bold;
+
+
+}
+
+
 .bx-prev:hover {
 	background: url('images/hov-left.png') no-repeat;}
 .bx-next:hover {
 	background: url('images/hov-right.png') no-repeat;}
 
-.bx-prev { 	
+.bx-prev {
 	position: absolute;
 	top: 115px;
 	left: 0px;
@@ -183,7 +198,7 @@ li #mail {
 	text-indent: -999999px;
 	color:#ffffff;
 	}
-	
+
 .bx-next {
 	position: absolute;
 	top: 115px;
@@ -194,10 +209,12 @@ li #mail {
 	background: url('images/right.png') no-repeat;
 	text-align:center;
 	color:#ffffff;
-	}	
+	}
 /*Main Content*/
 #content {
 	margin-top:5%;
+	width: 100%;
+
 }
 
 #school {
@@ -211,7 +228,7 @@ li #mail {
 	height:28.8125em;
 	width:34.375em;
 	z-index:-1;
-	
+
 }
 
 #graph p {
@@ -239,12 +256,12 @@ li #mail {
 #footer {
 	clear:both;
 	position:relative;
-	background: url(images/bg.png); 
+	background: url(images/bg.png);
 	background-repeat:repeat;
 	margin-top:-6em;
 	height:6em;
 	width:100%;
-	border-top: 3px solid #1d3956;	
+	border-top: 3px solid #1d3956;
 }
 
 
@@ -288,7 +305,7 @@ p.footer {
   		-webkit-box-shadow: 5px 5px 5px #ccc;
   		box-shadow: 5px 5px 5px #ccc;*/
   }
-  
+
 
 
 #portnav li {
@@ -324,10 +341,10 @@ ul.thumb {
 	padding: 10px;
 	top:0;
 	left:0;
-	
+
 }
 ul.thumb li {
-	margin: 0; 
+	margin: 0;
 	padding: 5px;
 	float: left;
 	position: relative;
@@ -335,15 +352,15 @@ ul.thumb li {
 	height: 110px;
 }
 ul.thumb li img {
-	width: 100px; 
+	width: 100px;
 	height: 100px;
 	border: 1px solid #ddd;
 	padding: 5px;
 	background: #f0f0f0;
 	position: absolute;
-	left: 0; 
+	left: 0;
 	top: 0;
-	-ms-interpolation-mode: bicubic; 
+	-ms-interpolation-mode: bicubic;
 }
 ul.thumb li img.hover {
 	background:url(thumb_bg.png) no-repeat center center;
@@ -356,7 +373,7 @@ ul.thumb li img.hover {
 	margin-right:auto;
 	}
 
-/* Facebook Plugin*/	
+/* Facebook Plugin*/
 #brytefbook {
 	padding-top:50px;
 	text-align:left;
@@ -364,7 +381,6 @@ ul.thumb li img.hover {
 	margin-right:auto;
 	padding-bottom:100px;
 }
-
 
 #studio li {
 	display:inline;
