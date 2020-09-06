@@ -1075,7 +1075,7 @@ button:focus {
   .navbar {
     background-color: #fff;
     box-shadow: 0 4px 20px rgba(17, 15, 16, 0.05);
-    height: 76px;
+    height: 90px;
     padding: 0 1.071rem;
   }
 }
@@ -3364,7 +3364,7 @@ li:nth-child(4) .menu-list__item span {
 }
 @media only screen and (max-width: 580px) {
   .header-page {
-    margin-top: 5rem;
+    margin-top: 6.5rem;
   }
 }
 .header-page--gutterBottom {
