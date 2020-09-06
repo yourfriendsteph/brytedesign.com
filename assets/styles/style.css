@@ -65,7 +65,8 @@
 @import url(vendors/photoswipe.css);
 @import url(vendors/animate.css);
 @import url(vendors/videojs-skin.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700");
 @import url(../icons/fonticons.css);
 /* -----------------------------------------------------------------
     - General Styles
@@ -127,7 +128,7 @@ html.is-scroll-disabled body {
     - Typography
 ----------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Vollkorn", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 3.4rem;
@@ -683,12 +684,12 @@ iframe {
 
 ::-moz-selection {
   background: transparent;
-  color: #f7541b;
+  color: #609449;
 }
 
 ::selection {
   background: transparent;
-  color: #f7541b;
+  color: #609449;
 }
 
 .inputText, .textarea {
@@ -1483,7 +1484,7 @@ button:focus {
   -ms-flex-direction: column;
   flex-direction: column;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Vollkorn", sans-serif;
   flex: 1;
   list-style: none;
   margin-bottom: 0;
@@ -2964,7 +2965,7 @@ li:nth-child(4) .menu-list__item span {
   }
 }
 .itemCard__title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Vollkorn", sans-serif;
   margin-bottom: .8rem;
 }
 
