@@ -4,10 +4,10 @@
  *	@author:			Daniel Benkenstein / neosmart GmbH
  *	@version:			1.2.7
  *	@Last Update:		06.06.2011
- *	@licence:			MIT (http://www.opensource.org/licenses/mit-license.php)
- *						GPL	(http://www.gnu.org/licenses/gpl.html)
- *	@documentation:		http://www.neosmart.de/social-media/facebook-wall
- *	@feedback:			http://www.neosmart.de/blog/jquery-plugin-facebook-wall
+ *	@licence:			MIT (https://www.opensource.org/licenses/mit-license.php)
+ *						GPL	(https://www.gnu.org/licenses/gpl.html)
+ *	@documentation:		https://www.neosmart.de/social-media/facebook-wall
+ *	@feedback:			https://www.neosmart.de/blog/jquery-plugin-facebook-wall
  *	
  ************************************************************************************************************************************/
 
@@ -87,13 +87,13 @@
 					
 					// Box -----------------------------------------------------------------------------------------------------------------------------------
 					output += (k==0) ? '<div class="fb-wall-box fb-wall-box-first">' : '<div class="fb-wall-box">';
-					output += '<a href="http://www.facebook.com/profile.php?id='+data[k].from.id+'" target="_blank">';
+					output += '<a href="https://www.facebook.com/profile.php?id='+data[k].from.id+'" target="_blank">';
 					output += '<img class="fb-wall-avatar" src="'+getAvatarURL(data[k].from.id)+'" />';
 					output += '</a>';
 					output += '<div class="fb-wall-data">';
 					
 					output += '<span class="fb-wall-message">';
-					output += '<a href="http://www.facebook.com/profile.php?id='+data[k].from.id+'" class="fb-wall-message-from" target="_blank">'+data[k].from.name+'</a> ';
+					output += '<a href="https://www.facebook.com/profile.php?id='+data[k].from.id+'" class="fb-wall-message-from" target="_blank">'+data[k].from.name+'</a> ';
 					if(exists(data[k].message)) output += modText(data[k].message);
 					output += '</span>';
 					
@@ -107,7 +107,7 @@
 						}
 						output += '<div class="fb-wall-media-container">';
 						if(exists(data[k].name)) output += '<a class="fb-wall-name" href="'+data[k].link+'" target="_blank">'+data[k].name+'</a>';
-						if(exists(data[k].caption)) output += '<a class="fb-wall-caption" href="http://'+data[k].caption+'" target="_blank">'+data[k].caption+'</a>';
+						if(exists(data[k].caption)) output += '<a class="fb-wall-caption" href="https://'+data[k].caption+'" target="_blank">'+data[k].caption+'</a>';
 						if(exists(data[k].properties)){
 							for(var p=0;p<data[k].properties.length;p++) output += (p==0) ? '<div>'+formatDate(data[k].properties[p].text)+'</div>' : '<div>'+data[k].properties[p].text+'</div>';
 						}
@@ -138,11 +138,11 @@
 						output += '<div class="fb-wall-comments">';
 						for(var c=0;c<data[k].comments.data.length;c++){
 							output += '<span class="fb-wall-comment">';
-							output += '<a href="http://www.facebook.com/profile.php?id='+data[k].comments.data[c].from.id+'" class="fb-wall-comment-avatar" target="_blank">';
+							output += '<a href="https://www.facebook.com/profile.php?id='+data[k].comments.data[c].from.id+'" class="fb-wall-comment-avatar" target="_blank">';
 							output += '<img src="'+getAvatarURL(data[k].comments.data[c].from.id)+'" />';
 							output += '</a>';
 							output += '<span class="fb-wall-comment-message">';
-							output += '<a class="fb-wall-comment-from-name" href="http://www.facebook.com/profile.php?id='+data[k].comments.data[c].from.id+'" target="_blank">'+data[k].comments.data[c].from.name+'</a> ';
+							output += '<a class="fb-wall-comment-from-name" href="https://www.facebook.com/profile.php?id='+data[k].comments.data[c].from.id+'" target="_blank">'+data[k].comments.data[c].from.name+'</a> ';
 							output += modText(data[k].comments.data[c].message);
 							output += '<span class="fb-wall-comment-from-date">'+formatDate(data[k].comments.data[c].created_time)+'</span>';
 							output += '</span>';

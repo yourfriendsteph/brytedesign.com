@@ -1,10 +1,10 @@
 /*
  * jQuery FlexSlider v1.8
- * http://flex.madebymufffin.com
+ * https://flex.madebymufffin.com
  *
  * Copyright 2011, Tyler Smith
  * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
+ * https://www.opensource.org/licenses/mit-license.php
  *
  * Contrib: Darin Richardson
  */
@@ -256,8 +256,8 @@
       //////////////////////////////////////////////////////////////////
       //FlexSlider:Touch Swip Gestures
       //Some brilliant concepts adapted from the following sources
-      //Source: TouchSwipe - http://www.netcu.de/jquery-touchwipe-iphone-ipad-library
-      //Source: SwipeJS - http://swipejs.com
+      //Source: TouchSwipe - https://www.netcu.de/jquery-touchwipe-iphone-ipad-library
+      //Source: SwipeJS - https://swipejs.com
       if ('ontouchstart' in document.documentElement) {
         //For brevity, variables are named for x-axis scrolling
         //The variables are then swapped if vertical sliding is applied
