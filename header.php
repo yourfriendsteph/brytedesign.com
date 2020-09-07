@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script> 
 <script type="text/javascript"> 
  
 $(document).ready(function(){
@@ -76,9 +76,9 @@ $("ul.thumb li").hover(function() {
                 <div class="column_content">
                 <ul class="social">
                 <li>
-                <a href="http://www.facebook.com/pages/Bryte-Design/141074065983839" target="_blank" title="Facebook" id="facebook"><span>facebook</span></a></li>
+                <a href="https://www.facebook.com/pages/Bryte-Design/141074065983839" target="_blank" title="Facebook" id="facebook"><span>facebook</span></a></li>
                 <li>
-                <a href="http://twitter.com/#!/BryteDesign" target="_blank" title="Twitter" id="twitter"><span>twitter</span></a></li>
+                <a href="https://twitter.com/#!/BryteDesign" target="_blank" title="Twitter" id="twitter"><span>twitter</span></a></li>
                 <li>
                 <a href="mailto:info@brytedesign.com" target="_blank" title="Email" id="mail"><span>email</span></a></li>
                 </ul>
