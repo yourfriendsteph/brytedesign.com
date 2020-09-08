@@ -40,6 +40,13 @@ if (isset($_POST['email'])) {
     $errorMSG .= 'Email is required';
 }
 
+// PHONE
+if (isset($_POST['phone'])) {
+    $phone = $_POST['phone'];
+} else {
+    $errorMSG .= 'Phone is required';
+}
+
 // MESSAGE
 if (isset($_POST['message'])) {
     $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
