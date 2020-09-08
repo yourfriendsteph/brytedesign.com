@@ -59,6 +59,8 @@ $body = "
         <div style='background:#fff; width:600px; margin:20px auto; padding:35px 60px 25px; box-sizing:border-box; border-radius:4px; box-shadow: 0 15px 40px rgba(141, 153, 167, 0.05);'>
             <div style='color:#8d99a7;'>Name:</div>
             <div style='margin-bottom:10px;'>$name</div>
+            <div style='color:#8d99a7;'>Phone:</div>
+            <div style='margin-bottom:10px;'>$phone</div>
             <div style='color:#8d99a7;padding-top:13px;border-top:1px solid #f3f5f6;'>Email sender:</div>
             <div style='margin-bottom:10px;'>$email</div>
             <div style='color:#8d99a7;padding-top:13px;border-top:1px solid #f3f5f6;'>Comment:</div>
@@ -82,7 +84,7 @@ $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = 'Contact Form';  // subject of the letter
 $mail->Body = $body;
-$mail->AltBody = 'Name: $name, Email sender: $email, Comment: $message';
+$mail->AltBody = 'Name: $name, Email sender: $email, Phone: $phone, Comment: $message';
 
 if ($mail->send() && $errorMSG == ''){
    echo 'success';
