@@ -1372,12 +1372,13 @@ $(document).ready(function() {
         // Initiate Variables With Form Content
         var name = $("#name").val(),
             email = $("#email").val(),
+            phone = $("#phone").val(),
             message = $("#message").val();
 
         $.ajax({
             type: "POST",
             url: "assets/php/form-contact.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message,
+            data: "name=" + name + "&email=" + email + "&phone=" + phone + "&message=" + message,
             success : function(text){
                 if (text == "success"){
                     formSuccess();
