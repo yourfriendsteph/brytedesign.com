@@ -5,6 +5,7 @@ $errorMSG = '';
 // PHPMailer
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
 require_once('phpmailer/src/Exception.php');
 require_once('phpmailer/src/PHPMailer.php');
