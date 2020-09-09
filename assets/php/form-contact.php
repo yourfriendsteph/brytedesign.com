@@ -88,7 +88,6 @@ $mail->setFrom('no-reply@mydomain.com', 'Company Name');  // which email will be
 $mail->addAddress('stephtakesphotos@gmail.com', 'Steph Test');  // who needs to send a letter
 
 //Server settings
-$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
 $mail->isSMTP();                                            // Send using SMTP
 $mail->Host       = 'email-smtp.us-west-2.amazonaws.com';   // Set the SMTP server to send through
 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
