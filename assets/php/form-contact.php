@@ -63,7 +63,6 @@ $body = "
 <html>
 <body>
     <div style='background:#f9f9f9; padding:1px;'>
-        <div style='text-align: center; margin-top: 20px;'><h2>ARTEM.</h2></div>
         <div style='background:#fff; width:600px; margin:20px auto; padding:35px 60px 25px; box-sizing:border-box; border-radius:4px; box-shadow: 0 15px 40px rgba(141, 153, 167, 0.05);'>
             <div style='color:#8d99a7;'>Name:</div>
             <div style='margin-bottom:10px;'>$name</div>
@@ -84,8 +83,8 @@ $body = "
 $mail = new PHPMailer(true);
 
 //Recipients
-$mail->setFrom('stephtakesphotos@gmail.com', 'Bryte Design Contact Intake');  // which email will be sent from
-$mail->addAddress('stephtakesphotos@gmail.com', 'Steph Test');  // who needs to send a letter
+$mail->setFrom('cain@brytedesign.com', 'Ryan Cain');  // which email will be sent from
+$mail->addAddress('bwilliams@brytedesign.com', 'Brittany Williams');  // who needs to send a letter
 
 //Server settings
 $mail->isSMTP();                                            // Send using SMTP
