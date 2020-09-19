@@ -83,7 +83,8 @@ $body = "
 $mail = new PHPMailer(true);
 
 //Recipients
-$mail->setFrom('cain@brytedesign.com', 'Ryan Cain');  // which email will be sent from
+$mail->setFrom('non-reply@brytedesign.com', 'No Reply');  // which email will be sent from
+$mail->addAddress('cain@brytedesign.com', 'Ryan Cain');  // who needs to send a letter
 $mail->addAddress('bwilliams@brytedesign.com', 'Brittany Williams');  // who needs to send a letter
 
 //Server settings
